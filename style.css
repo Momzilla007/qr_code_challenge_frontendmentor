@@ -1,6 +1,6 @@
 body {
     min-height: 100vh;
-    margin: auto;
+    margin: 0;
     background-color: #D5E1EF;
     display: flex;
     flex-direction: column;
@@ -28,7 +28,6 @@ p {
     letter-spacing: 0.2px;
     text-align: center;
     width: auto;
-    align-self: anchor-center;
     padding: 2%;
 
 }
@@ -36,17 +35,23 @@ p {
 main {
     display: flex;
     flex-direction: column;
-    width: auto;
-    padding: 2%;
-    margin-top: 10vh;
+    width: 90%;
+    max-width: 320px;
+    padding: 1rem;
     background-color: #FFFFFF; 
     border-radius: 20px;
     box-shadow: 1px 3px 8px #ccd4e0;
     
 }
 
+main img {
+    border-radius: 20px;
+}
+
+
 footer {
-    padding-top: 10vh;
+    position: absolute;
+    bottom: 1rem;
 }
 
 .attribution {
@@ -57,9 +62,6 @@ footer {
      color: hsl(228, 45%, 44%); 
 }
 
-#qr-code {
-    border-radius: 20px;
-}
 
 /** above css edited to allow for responsiveness without media queries **/
 
