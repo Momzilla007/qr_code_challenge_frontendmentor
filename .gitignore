@@ -14,3 +14,7 @@
 # Avoid your project being littered with annoying .DS_Store files!
 .DS_Store
 .prettierignore
+
+# did not use AI at all so these are not necessary
+AGENTS.md
+CLAUDE.md
