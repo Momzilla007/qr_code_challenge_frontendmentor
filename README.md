@@ -12,11 +12,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
-  - [AI Collaboration](#ai-collaboration)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -28,8 +25,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [github repo](https://github.com/Momzilla007/qr_code_challenge_frontendmentor.git)
+- Live Site URL: [netlify](https://qr-component-challenge-ad.netlify.app)
 
 ## My process
 
@@ -50,16 +47,12 @@ As someone with around 2 and half years of education in web design and developme
 
 ### Continued development
 
-I would like to become more experienced with flex box, as I am not quite an expert in using it. I do need more practice in responsive design too.
+I would like to become more experienced with flex box, as I am not quite an expert in using it, and more practice in responsive design.
 
 ### Useful resources
 
 - [W3 Schools CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) - This helped me understand how flex works in CSS. 
 
-
-### AI Collaboration
-
-I purposely did not use AI on this challenge because I wanted to make sure that I have a concrete understanding of the HTML and CSS I used to complete this project. 
 
 ## Author
 
