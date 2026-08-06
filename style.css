@@ -1,4 +1,6 @@
 body {
+    min-height: 100vh;
+    margin: 0;
     background-color: #D5E1EF;
     display: flex;
     flex-direction: column;
@@ -59,8 +61,8 @@ footer {
 }
 
 img {
-    height: 576px;
-    width: 576px;
+    height: auto;
+    width: 100%;
 }
 
 /** responsive css below for mobile view **/
