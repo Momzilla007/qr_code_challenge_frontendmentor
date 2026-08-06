@@ -52,8 +52,15 @@ main img {
 
 
 footer {
-    position: absolute;
-    bottom: 1rem;
+    margin-top: auto;
+    padding-top: 24px;
+}
+
+.card-wrapper {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .attribution {
