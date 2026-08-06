@@ -1,48 +1,52 @@
 body {
     min-height: 100vh;
-    margin: 0;
+    margin: auto;
     background-color: #D5E1EF;
     display: flex;
     flex-direction: column;
     align-content: center;
     justify-content: center;
     align-items: center;
+    font-family: Outfit;
+    font-size: 15px;
 }
 
 h1 {
-    font-family: Outfit;
     color: #1F314F;
     font-weight: 800;
-    font-size: 22px;
+    font-size: 1.7rem;
     line-height: 120%;
     letter-spacing: 0px;
     text-align: center;
 }
 
 p {
-    font-family: Outfit;
     color: #68778D;
     font-weight: 300;
-    font-size: 15px;
+    font-size: 1rem;
     line-height: 140%;
     letter-spacing: 0.2px;
     text-align: center;
+    width: auto;
+    align-self: anchor-center;
+    padding: 2%;
 
 }
-.container {
+
+main {
     display: flex;
     flex-direction: column;
-    margin: 10%;
     width: auto;
     padding: 2%;
+    margin-top: 10vh;
     background-color: #FFFFFF; 
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 1px 3px 8px #ccd4e0;
     
 }
 
 footer {
-    font-family: Outfit;
+    padding-top: 10vh;
 }
 
 .attribution {
@@ -54,37 +58,12 @@ footer {
 }
 
 #qr-code {
-    margin-top: 1%;
-    width: auto;
-    align-items: center;
-    border-radius: 10px; 
+    border-radius: 20px;
 }
 
-img {
-    height: auto;
-    width: 100%;
-}
-
-/** responsive css below for mobile view **/
-
-@media (max-width: 768px) {
-    
-    .container {
-        width: auto;
-        height: 80%;
-        padding: 5%;
-
-        
-    }
-
-    #qr-code {
-        width: 90%;
-        height: 90%;
-        align-self: center;
-    }
+/** above css edited to allow for responsiveness without media queries **/
 
 
-}
 
 /** Hex codes for colours used: 
 
